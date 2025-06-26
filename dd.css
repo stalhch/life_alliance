@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Ledger&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Ledger", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F1F2DF;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 1440px;
+    height: 130px;
+    margin: 0 auto;
+    background-image: url(dfoto/фон.png);
+}
+
+header nav{
+    padding: 50px 50px;
+    float: right;
+    width: 60%;
+}
+
+ul .chs{
+    background-color: #d4d4d4;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    display: inline-block;
+    box-shadow: -1px 18px 7px 2px #00000052;
+}
+
+header nav ul li a{
+    color: #094A17;
+    background-color: #95CEB6;
+    font-size: medium;
+    padding: 15px 45px;
+    border-radius: 15px;
+}
+
+
+
+header nav ul li a:hover:not(.active, .chs) {
+    background-color: #ffffff; 
+    font-size: larger;
+    transition: all 250ms ease;
+}
+
+header nav ul li.btn a{
+    background-color: rgba(153, 140, 140, 0.577);
+}
+
+.hero{
+    padding-bottom: 100px;
+    padding-top: 0%;
+    height: 500px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    padding: 250px;
+    font-size:xx-large;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 1 катротка*/
+
+.lew{
+    margin-top: 50px;
+    width: 1440px;
+    height: 670px;
+    background-color: #659377;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+    h1{
+        font-weight: 500;
+        font-size: 30px;
+        background-color: #80BC92;
+        text-align: center;
+        margin: 20px 0px 20px 0px;
+        padding: 16px;
+        width: 1410px;
+    }
+
+    h2{
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    ul{
+        margin-left: 20px;
+    }
+
+    img:not(.nachalo){
+        box-shadow: -11px 8px 8px 0px rgba(34, 60, 80, 0.2);
+        border-radius: 13px;
+    }
+
+
+    .card{
+        background-color: #F1FFF9;
+        height: 530px;
+        width: 1440px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .card:hover{
+        height: 550px;
+        border-radius: 20px;
+        transition: 1s;
+        width: 1400px;
+        margin-left: 22px;
+    }
+
+    #bl-1{
+        font-size: 20px;
+        width: 550px;
+        line-height: 40px;
+    }
+
+.praw{
+    margin-top: 50px;
+    width: 1440px;
+    height: 670px;
+    background-color: #659377;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+    .card-1{
+        background-color: #F1FFF9;
+        height: 530px;
+        width: 1440px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+
+    .card-1:hover{
+        height: 550px;
+        border-radius: 20px;
+        transition: 1s;
+        width: 1400px;
+        margin-left: 10px;
+    }
+
+/* подвал*/
+    
+#nachalo:hover{
+    border: dotted 3px #351f1f;
+   }
+   
+   footer{
+       margin-top: 200px;
+       height: 481px;
+       background-color: #243730;
+   }
+    
+       .foot{
+           text-decoration: none;
+           display: flex;
+           font-size: 30px;
+           padding: 17px;
+           border-bottom: solid 1px #ffffff;
+           justify-content: space-around;
+       }
+   
+       .foot a{
+           color: #AAC5AF;
+       }
+   
+   /*инфа*/
+   
+       #stolbs{
+           display: flex;
+           height: 286px;
+           font-size: 19px;
+           color: #ffffff77;
+           font-weight: 100;
+           letter-spacing: 2px;
+           line-height: 50px;
+           justify-content: space-around;
+       }
+   
+       #stolbs span{
+           display: flex;
+           flex-direction: column;
+       }
+   
+       #stolbs div:not(.loh){
+           width: 390px;
+           padding: 20px;
+       }
+   
+       .loh{
+           width: 210px;
+           background-color:#ffffff ;
+           display: flex;
+           padding: 10px;
+           border-radius: 10px;
+           height: 40px;
+       }
+   
+       #lohh{
+           width: 150px;
+       }
+   
+       #pomarka{
+           color: #ffffff3f;
+           height: 100px;
+           width: 400px;
+           text-align: end;
+           margin-left: 2400px;
+       }
+
+      footer input{
+        border-radius: 25px;
+        font-size: 20px;
+        border: none;
+        padding: 10px;
+        margin: 0px;
+        height: 20px;
+    }
